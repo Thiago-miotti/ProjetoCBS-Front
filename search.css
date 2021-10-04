@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+    
+}
+
+.container1{   
+    height: 100vh;
+    width: 100vw;
+    background-color: #007F40;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.container2{
+    height: 500px;
+    width: 500px;
+    background-color: white ;    
+}
+.container2 .logocbs{
+    display: flex;
+    justify-content: center;
+}
+.container2 .titulo{
+    display: flex;
+    justify-content: center;
+}
+.formulario form{
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+    box-sizing: border-box;
+}
+input{
+    width: 100%;
+    padding: 5px 10px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+label{
+    font-weight: 700;
+    padding-right: 5px;
+    margin-top: 5px;
+    font-size: large;
+}
+.bt-procurar{
+    width: 90%;
+    background-color: #007F40;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 15px;
+}
+.bt-procurar:hover{
+    background-color: #00a753;
+    color: black;
+}

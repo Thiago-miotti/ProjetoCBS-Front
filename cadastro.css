@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+.container1{
+    height: 100vh;
+    width: 100vw;
+    background-color: #007F40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2{
+    height: 500px;
+    width: 500px;
+    background-color: white; 
+    max-width: 500px;
+    overflow-y: scroll;
+}
+
+.container2 .logocbs{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.formulario form{
+    padding: 12px 20px;
+    display: inline-block;
+    margin: 8px 0px;
+    box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+    padding: 5px 20px;
+    border-radius: 4px;
+    margin: 8px 0;
+    background-color: white;
+    border: 1px solid rgb(0, 0, 0);
+  }
+
+input{
+    width: 100%;
+    padding: 5px 20px;
+    margin: 8px ;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.bt-cadastrar{
+    width: 100%;
+    margin: 10px 10px;
+    padding: 9px 20px;
+    background-color: #007F40;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 15px;
+}
+
+.bt-cadastrar:hover{
+    background-color: #00a753;
+    color: black;
+}
+
+
+
+
